@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 540px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    padding: 0px 8px;
+    color: white;
+    background: linear-gradient(red, purple, pink, );
+}
+a{
+    text-decoration: none;
+}
+.info{
+    height: 540px;
+    width: 1280px;
+    display: flex;    
+}
+.subone{
+    width: 2000px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.subtwo{
+    width: 3500px;
+    background-image: url(Images/picb&w.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+img{
+    height: 550px;
+    width: 600px;
+}
+#logo{
+    position: absolute;
+    left: 330px;
+    bottom: 95px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#riya{
+    position: absolute;
+    left: 330px;
+    bottom: 60px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 8px;
+}
+h4{
+    position: absolute;
+    left: 330px;
+    bottom: 20px;
+    background-color: chartreuse;
+    color: black;
+    padding: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+}
+/*about*/
+.about{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 536px;
+    width: 1244px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.second{
+    border: 10px double pink; 
+    background-color: white;
+    width: 335px;
+    border-top-left-radius: 40px;
+}
+.subsec{
+    background-color: white;
+    height: 375px;
+    width: 360px;
+    padding-left: 68px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 3px 0px 5px rgb(81, 15, 81);
+}
+#picone{
+    height: 355px;
+    width: 335px;
+    border-top-left-radius: 30px;
+}
+#who{
+    background-color: chartreuse;
+    color: black;
+    width: 90px;
+}
+.abt{
+    background: linear-gradient(white, pink, deeppink);
+}
+/*project*/
+#im{
+    border-radius: 30px;
+    padding: 2px;
+    height: 130px;
+    width: 130px;
+}
+fieldset{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: linear-gradient(white, grey);
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px gold;
+}
+.pronew{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+}
+#myy{
+    text-align: center;
+    color: chartreuse;
+    word-spacing: 10px;
+    font-size: xx-large;
+    font-weight: 300px;
+}
+.probg{
+    background-image: url(Images/proback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    background-color: cyan;
+    color: black;
+    padding: 2px;
+    cursor: grabbing;
+    width: 70px;
+    border-radius: 20px;
+}
+legend:hover{
+    cursor: grab;
+    transform: scale(1.06);
+}
+fieldset:hover{
+   transform: scale(1.07);
+   transition: 0.5s;
+}
+/*contact*/
+.coct{
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: url(Images/greenbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vaseleft{
+    justify-content: left;
+    align-items: center;
+    width: 480px;
+    height: 350px;
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    text-align: center;
+    background-image: url(Images/greenvase.png);
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+    background-position-x: -120px;
+    background-size: 315px; 
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0 0 13px green;
+}
+.vaseright{
+    justify-content: right;
+    align-items: center;
+    width: 320px;
+    height: 350px;
+    background-color: chartreuse;
+    padding: 2px;
+    text-align: center;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0 6px 13px green;
+}
+textarea{
+    width: 205px;
+    height: 80px;
+}
+#log{
+    color: blue;
+}
+#get{
+    color: skyblue;
+}
+input{
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+}

@@ -1,0 +1,25 @@
+.box{
+    width: 60%;
+    background-color: #31c2ce;
+    text-align: center;
+    padding: 2%; 
+    margin: 45px;
+    border-style: solid;
+    border-color: rgb(50, 0, 88);
+    border-width: 5px;
+    border-radius: 25px;
+    box-shadow:0 6px 24px  #0b7781;
+}
+img{
+    width: 16%;
+    height: 16%;
+    border-radius: 60%;
+    border-style: solid;
+    border-color: aliceblue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
